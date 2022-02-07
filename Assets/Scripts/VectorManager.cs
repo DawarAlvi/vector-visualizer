@@ -15,7 +15,5 @@ public class VectorManager : MonoBehaviour
         transform.LookAt(point);
         arrowCone.localPosition = new Vector3(0,0, distance);
         arrowCylinder.localScale = new Vector3(1, distance, 1);
-
-
     }
 }

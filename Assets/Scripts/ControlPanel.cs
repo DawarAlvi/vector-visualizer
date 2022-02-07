@@ -5,9 +5,7 @@ using UnityEngine;
 public class ControlPanel : MonoBehaviour
 {
     bool isPanelOpen = true;
-    [SerializeField] Animation clip;
-
-    [SerializeField] Animator animator;
+    Animator animator;
     private void Awake()
     {
         animator = GetComponent<Animator>();
